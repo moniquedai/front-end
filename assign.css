@@ -1,0 +1,167 @@
+body {
+    background-color: rgba(64, 64, 59, 1);
+}
+
+.container {
+    width: 100vw;
+    height: 80px;
+    background-color: rgba(165, 50, 42, 0.899);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.column1 {
+    flex: 2;
+}
+
+.colunm {
+    flex: 1;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    left: 70px;
+    display: inline;
+    padding: 18px;
+}
+
+.cart {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(102, 0, 0);
+    border: solid rgb(102, 0, 0) 1px;
+    border-radius: 20px;
+    padding-left: 60px;
+    padding-right: 110px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: -26px;
+    margin-left: -150px;
+    position: absolute;
+
+}
+
+.show {
+    color: white;
+    border: solid rgba(165, 50, 42, 0.899) 1px;
+    background-color: rgba(165, 50, 42, 0.899);
+    border-radius: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: relative;
+    margin-right: 150px;
+}
+
+
+img {
+    /* max-width: 100%;
+    max-height:100vh; */
+    width: 100vw;
+    height: 260px;
+    margin: auto;
+  
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.introduction {
+    font-size: 17px;
+}
+
+.deliver {
+    border: 1px solid black;
+    background-color: rgba(59, 59, 60, 1);
+    color: white;
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 10px;
+}
+
+.menu {
+    border: 1px solid white;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    border-radius: 2%;
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.price {
+    color: brown;
+    font-weight: bold;
+    font-size: medium;
+}
+
+i {
+    position: relative;
+    bottom: 10px;
+}
+
+h3 {
+    font-family: sans sans-serif;
+}
+
+label {
+    font-weight: bold;
+    padding: 2px;
+    margin-right:20px;
+    border-radius:10%;
+}
+
+#textbox {
+    height: 18px;
+    width: 30px;
+    margin-right:15px;
+    
+}
+
+.menubutton {
+    color: white;
+    background-color: brown;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid brown;
+    border-radius: 20px;
+    margin-left:20px;
+
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+.column1 {
+    float: left;
+    margin-left:20px;
+
+}
+
+.column2 {
+    float: right;
+
+}
