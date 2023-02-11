@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color:whitesmoke;
+    width:100vw;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+.title{
+    font-size:20px;
+    padding:20px;
+}
+
+
+.link ul{
+    display:flex;
+    margin-top:15px; 
+    margin-left:-600px;
+}
+
+.link li a{
+    text-decoration: none; 
+    padding:8px ; 
+    display:flex;
+    color:black;
+}
+.home{
+    opacity: 1;
+}
+.about{
+    opacity: 0.7;
+}
+.contact{
+    opacity: 0.4;
+}
+.link li{
+    list-style: none;
+    padding:10px;
+    
+}
+.button{
+    top:30px;
+    right:20px;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content:space-between;
+    width:20px;
+    height:15px;
+    /* display:none; */
+    visibility: hidden;
+}
+.button .bar{
+    height:3px;
+    width:100%;
+    background:white;
+    border-radius: 10px;
+}
+
+
+ @media screen and (max-width:768px){
+    .dropdown .link{
+        display: none;
+    }
+
+    .dropdown:hover .link{
+       display:block;
+    }
+
+    .button{
+        top:30px;
+        right:10px;
+        visibility:visible;
+        /* display:flex; */
+        position:absolute; 
+    }
+    
+    .link{
+        margin-top:10px;
+        background-color:#100A0A ;
+        border:solid #100A0A 1px;
+        width:100vw;
+        height:200px; 
+       
+    } 
+    .navbar{
+        background-color:green; 
+    }
+    .navbar{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .link ul{
+        flex-direction:column;
+        margin:-3px;
+       
+    }
+    .link li a{
+        color:white;
+    }
+    
+    .title{
+  
+        color:white;
+
+    }
+    .home{opacity:1; }
+    .about{opacity:1;}
+    .contact{opacity:1;}
+
+    .column{
+        flex: 100%;
+        max-width: 100%;
+      }
+ }
+
+ h1{
+    margin-top:30px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color:chocolate;
+    padding:30px;
+    font-size: 35px;
+    text-transform:uppercase;
+    font-family: sans-serif;
+    font-style:italic;
+    
+    
+   
+}
+ .container{
+    margin-top:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+    background-color:skyblue;
+    flex-wrap:wrap;
+    /* gap:10px; */
+    
+ }
+
+ .container .column{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:32.8%;
+   
+ }
+
+ .container .column img{
+    margin-top:5px;
+    padding-bottom:5px; 
+    border-radius:5px;
+ }
+ 
+ 
+ 
